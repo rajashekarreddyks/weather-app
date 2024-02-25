@@ -43,14 +43,14 @@ export default function Weather(){
     }
 
     function handleCity(event){
-     setCity(event.target.value)
+     setCity(event.target.weatherData)
     }
     return(
         <div className=" Weather">
             <div className=" Container">
                 <form className=" search-form" onSubmit={handleSubmit}>
                 <input 
-                type=" search"
+                type=" search iejijejeijeijiji"
                 placeholder=" type a city.."
                 onChange={handleCity}
                 className=' pr-10 focus:outline-none border border-cyan-800 py-3 '
